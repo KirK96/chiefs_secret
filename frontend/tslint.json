@@ -1,18 +1,38 @@
 {
   "defaultSeverity": "error",
-  "extends": ["tslint:latest"],
+  "extends": [
+    "tslint:latest"
+  ],
   "jsRules": {},
   "rules": {
-    "curly": [true, "ignore-same-line"],
-    "indent": [true, "spaces", 2],
-    "max-line-length": [true, 100],
-    "member-access": [false],
-    "no-console": [false],
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "max-line-length": [
+      true,
+      100
+    ],
+    "member-access": [
+      false
+    ],
+    "no-console": [
+      true
+    ],
+    "noImplicitAny": true,
     "no-implicit-dependencies": false,
     "no-irregular-whitespace": true,
     "no-string-literal": false,
     "no-submodule-imports": false,
-    "object-literal-key-quotes": [true, "as-needed"],
+    "object-literal-key-quotes": [
+      true,
+      "as-needed"
+    ],
     "object-literal-sort-keys": false,
     "ordered-imports": [
       true,
@@ -21,8 +41,16 @@
         "named-imports-order": "case-insensitive"
       }
     ],
-    "quotemark": [true, "single", "jsx-double"],
-    "semicolon": [true, "always", "strict-bound-class-methods"],
+    "quotemark": [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "semicolon": [
+      true,
+      "always",
+      "strict-bound-class-methods"
+    ],
     "trailing-comma": {
       "options": {
         "esSpecCompliant": true,
